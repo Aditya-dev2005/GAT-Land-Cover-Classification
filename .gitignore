@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# =========================
+# DATASET (VERY IMPORTANT)
+# =========================
+allBands/
+AnnualCrop/
+Forest/
+HerbaceousVegetation/
+Highway/
+Industrial/
+Pasture/
+PermanentCrop/
+Residential/
+River/
+SeaLake/
+
+# =========================
+# MODEL FILES
+# =========================
+*.pth
+
+# =========================
+# BULK GENERATED IMAGES
+# =========================
+result_*.png
+
+# =========================
+# LARGE DATA FILES
+# =========================
+*.csv
+*.xlsx
+
+# =========================
+# SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
