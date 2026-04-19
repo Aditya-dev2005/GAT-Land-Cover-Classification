@@ -9,8 +9,6 @@
 
 **Graph Attention Networks for Land Cover Classification from Multispectral Satellite Images**
 
-*Jaypee Institute of Information Technology, Noida | B.Tech VI Semester (2025–26)*
-
 [📄 Synopsis](#-project-synopsis) · [🚀 Quick Start](#-quick-start) · [📊 Results](#-results) · [🏗️ Architecture](#️-architecture) · [📂 Dataset](#-dataset)
 
 </div>
