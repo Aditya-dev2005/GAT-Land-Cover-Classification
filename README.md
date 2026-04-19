@@ -5,7 +5,6 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![PyG](https://img.shields.io/badge/PyTorch_Geometric-GNN-orange?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![JIIT](https://img.shields.io/badge/JIIT-Minor_Project_II-blue?style=for-the-badge)
 
 **Graph Attention Networks for Land Cover Classification from Multispectral Satellite Images**
