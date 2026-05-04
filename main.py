@@ -219,7 +219,7 @@ class EuroSATRealProcessor:
 
         final_df = pd.concat(all_features, ignore_index=True)
         final_df.to_csv('features.csv', index=False)
-        print(f"\n✅ Saved {len(final_df)} superpixel rows → features.csv")
+        print(f"\n Saved {len(final_df)} superpixel rows → features.csv")
         return final_df
 
 
@@ -434,7 +434,7 @@ class GATTrainer:
         acc = accuracy_score(all_labels, all_preds)
         f1  = f1_score(all_labels, all_preds, average='weighted', zero_division=0)
 
-    # 🔥 FIX: handle only present classes
+    # handle only present classes
         unique_labels = sorted(set(all_labels) | set(all_preds))
 
         cm = confusion_matrix(all_labels, all_preds, labels=unique_labels)
@@ -773,8 +773,8 @@ def plot_baseline_comparison(baseline_results, gat_accuracy, gat_f1,
               fontsize=10, loc='upper left')
     ax.grid(axis='y', alpha=0.2, color='white')
 
-    # Highlight GAT bar
-    ax.annotate('✦ Best', xy=(x[-1] - w/2, accs[-1]),
+    # GAT bar
+    ax.annotate('Best', xy=(x[-1] - w/2, accs[-1]),
                 xytext=(x[-1] - w/2 + 0.3, accs[-1] + 8),
                 color='#2ecc71', fontsize=10, fontweight='bold',
                 arrowprops=dict(arrowstyle='->', color='#2ecc71', lw=1.5))
